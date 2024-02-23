@@ -12,5 +12,6 @@
 # of a function.
 add1_s:
     addi a0, a0, 1
+
     # The return value goes in a0
     ret

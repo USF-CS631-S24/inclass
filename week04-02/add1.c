@@ -11,6 +11,7 @@ int main(int argc, char *argv[]) {
     r = add1_c(val);
     printf("add1_c(%d) = %d\n", val, r);
 
+
     r = add1_s(val);
     printf("add1_s(%d) = %d\n", val, r);
 
