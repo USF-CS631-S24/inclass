@@ -1,4 +1,4 @@
-PROGS = endian hello_s twos strlen strcpy bits get_bitseq intdr
+PROGS = endian hello_s twos strlen strcpy bits get_bitseq intdr sumarr_idx_s
 
 ENDIAN_OBJS = endian.o
 HELLOS_OBJS = hello_s.o
