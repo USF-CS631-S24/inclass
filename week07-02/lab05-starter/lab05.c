@@ -140,7 +140,7 @@ void sumarr_idx_test(int start_arg, int argc, char **argv) {
 
     copy_array(tmp, a, len);
     rv_init(&state, (uint32_t*) sumarr_idx_s, (uint64_t) a, len, 0, 0);
-    rv_emulate(&state);
+    sum = rv_emulate(&state);
     printf("Emu: %d\n", sum);
 }
 

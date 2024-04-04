@@ -15,7 +15,7 @@ all : $(PROGS)
 decode: $(DECODE_OBJS)
 	gcc -g -o $@ $^
 
-signext: $(DECODE_OBJS)
+signext: $(SIGNEX_OBJS)
 	gcc -g -o $@ $^
 
 
